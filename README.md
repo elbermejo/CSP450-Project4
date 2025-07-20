@@ -10,7 +10,6 @@ The system detects and visualizes network anomalies, including which host machin
 - Detect and visualize in real-time which host machines have been hacked or taken offline.
 - Integrate multiple technologies: Kafka Cloud, Docker, Python, TML, PrivateGPT, IoT, and real-time dashboards.
 - Enable real-time, data-driven decision making through a browser-based dashboard.
-- Provide evidence/screenshots answering the 16 required analytical questions.
 
 ## Technologies Used
 
@@ -36,6 +35,5 @@ The system detects and visualizes network anomalies, including which host machin
 ### 1. Pull Required Docker Images
 
 ```bash
-docker pull qdrant/qdrant
 docker pull maadsdocker/tml-privategpt-no-gpu-amd64:latest
 docker pull maadsdocker/tml-cisco-network-cyberthreats-privategpt-amd64:latest
