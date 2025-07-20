@@ -1,0 +1,26 @@
+Packet Tracer Setup Guide
+
+1. Download Packet Tracer
+	For Ubuntu 24.04:
+	Download the compatible installer from this GitHub repository:
+	https://github.com/farhatizakaria/CiscoPacketTracer-Ubuntu_24.10
+	Note: Packet Tracer is not available via apt install on Ubuntu 24.04. Use the script or .deb file from the above link.
+
+	For other Ubuntu versions:	
+	Use the official Cisco NetAcad website or find a compatible build for your version.
+	If you encounter issues, search for an installer that matches your Ubuntu version.
+
+2. Verify Installation
+	After installing, run Packet Tracer to confirm it launches successfully.
+	You should see the Packet Tracer GUI and be able to create or open network files.
+
+3. Install the Professor’s Packet Tracer File
+	Download the provided project file required for the assignment:
+	tml-hacker-networksecurity-setup v3.pkt
+	Open Packet Tracer, then open this .pkt file:
+	File > Open > [select the downloaded .pkt file]
+	This file is required:
+	Without it, the dashboard will not receive any data and will show errors.
+
+4. Ready for Integration
+	Make sure Packet Tracer remains running while you use your Dockerized dashboard and data processing tools.

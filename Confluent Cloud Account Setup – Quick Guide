@@ -1,0 +1,39 @@
+Confluent Cloud Account Setup – Quick Guide
+
+1. Register an Account
+
+	Go to https://confluent.cloud/signup.
+	Enter your name, email address (school or personal), and other required info.
+	Confirm your email address via the verification link sent to your inbox.
+
+2. Create a Password
+
+	Set your password when prompted after email confirmation.
+	
+3. Credit Card Requirement
+
+	Enter a valid credit card to receive $400 in free credits (required for access).
+	You cannot proceed or use the platform without providing a credit card.
+
+4. Experience & Onboarding
+
+	Answer the brief questions about your Kafka/Confluent experience (answers do not affect your account).
+
+5. Create Environment and Cluster
+
+	After signup, if you do not see an environment, select “Add cloud environment”.
+	Use default settings and choose any name you prefer (e.g., “default”).
+	Create the environment.
+	Next, create a Basic cluster (recommended for student/demo use) using the default options.
+
+6. Access Your Cluster
+
+	Navigate: Home > Environment > [your environment name] > [your cluster name] (often called cluster_0 by default).
+
+7. Generate API Keys
+	Go to API Keys > Add key.
+	Select “My account” and click Next.
+	Download/save your API key and secret.
+	Important: You’ll need these for your Docker containers and should keep them secure!
+
+
