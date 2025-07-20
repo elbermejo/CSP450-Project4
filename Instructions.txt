@@ -11,11 +11,11 @@ docker run -d \
   --net="host" \
   --env RUNTYPE=-1 \
   --env VIPERVIZPORT=8080 \
-  --env BROKERHOSTPORT=pkc-619z3.us-east1.gcp.confluent.cloud:9092 \
+  --env BROKERHOSTPORT=<confluent_Bootstrap server> \
   --env KAFKAPRODUCETOPIC=cisco-network-mainstream \
   --env HACKEDHOSTS=5.100-i,6.18-i,5.18-i \
-  --env CLOUDUSERNAME=<your_username> \
-  --env CLOUDPASSWORD=<your_password> \
+  --env CLOUDUSERNAME=<confluent_api_key> \
+  --env CLOUDPASSWORD=<confluent_api_secret> \
   --env CACERTLOCATION=/etc/ssl/certs/ca-certificates.crt \
   maadsdocker/tml-cisco-network-cyberthreats-privategpt-amd64
 
@@ -24,10 +24,10 @@ docker run -d -p 9000:9000 \
   --name tml-cyberthreat-container-student \
   --env VIPERVIZPORT=9000 \
   --env RUNTYPE=-2 \
-  --env BROKERHOSTPORT=pkc-619z3.us-east1.gcp.confluent.cloud:9092 \
+  --env BROKERHOSTPORT=<confluent_Bootstrap server> \
   --env KAFKAPRODUCETOPIC=cisco-network-mainstream \
-  --env CLOUDUSERNAME=<your_username> \
-  --env CLOUDPASSWORD=<your_password> \
+  --env CLOUDUSERNAME=<confluent_api_key> \
+  --env CLOUDPASSWORD=<confluent_api_secret> \
   maadsdocker/tml-cisco-network-cyberthreats-privategpt-amd64
 
 
