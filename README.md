@@ -24,13 +24,14 @@ The system detects and visualizes network anomalies, including which host machin
 
 ## Prerequisites
 
-- Docker installed on your system.
+- TML Docker Images
+- Cisco Packet Tracer (.pkt file from the professor's github)
 - Credentials for Confluent Cloud Kafka cluster.
 - Ports 6333, 8001, and 9000 free on your system.
 
 ---
 
-## How to Run
+## How to get TML Docker images
 
 ### 1. Pull Required Docker Images
 
