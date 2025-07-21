@@ -16,7 +16,6 @@ docker run -d \
   --env HACKEDHOSTS=5.100-i,6.18-i,5.18-i \
   --env CLOUDUSERNAME=<confluent_api_key> \
   --env CLOUDPASSWORD=<confluent_api_secret> \
-  --env CACERTLOCATION=/etc/ssl/certs/ca-certificates.crt \
   maadsdocker/tml-cisco-network-cyberthreats-privategpt-amd64
 
 Start the TML Cyberthreats Container (Student Dashboard)
